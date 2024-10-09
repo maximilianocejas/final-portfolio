@@ -21,7 +21,7 @@ export default function ProyectsMobile(){
                     <h2 className="text-black font-bold text-xl">Seaway</h2>
                     <span className="text-xs text-black">Diseño, Desarrollo</span>
                 </div>
-                <p className="text-xs text-black">Yates de lujo.</p>
+                <p className="text-xs text-black">Yates de lujo.<span className="text-blue-600">(En proceso)</span></p>
             </article>
             <article className="flex flex-col gap-y-2">
             <a target="_BLANK" href="https://tefiyoga.netlify.app/">
