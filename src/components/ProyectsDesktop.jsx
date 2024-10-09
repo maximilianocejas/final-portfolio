@@ -36,6 +36,57 @@ export default function Proyects(){
         opacity: 0,
         duration: 1
       })
+            // inicio segundo
+            .to(".seaway-title",{
+              translateY: "-100%",
+              duration: 1,
+            },"-=0.8")
+            .to(".seaway-activity",{
+              translateY: "-100%",
+              duration: 1,
+            },"-=1")
+            .to(".seaway-description",{
+              translateY: "-100%",
+              duration: 1,
+            },"-=1")
+            .to(".timeline-proyect",{
+              translateY: "50px",
+              duration: 1,
+            },"-=1")
+            .to(".proyect-1",{
+              translateY: "-200%",
+              duration: 1,
+            },"-=1")
+                  // desaparecer segundo
+      .to(".proyect-2",{
+        translateY: "-100%",
+        duration: 1,
+      },"-=1")
+      tl.to(".image-2", {
+        clipPath: "inset(0 0 100% 0)",
+        duration: 1,   
+      })
+      .to(".seaway-title",{
+        translateY: "-200%",
+        duration: 1,
+        opacity: 0
+      },"-=0.7")
+      .to(".seaway-activity",{
+        translateY: "-200%",
+        duration: 1,
+        opacity: 0
+      },"-=1")
+      .to(".seaway-description",{
+        translateY: "-200%",
+        duration: 1,
+        opacity: 0
+      },"-=1")
+      tl.to(".canvas-container2", {
+        clipPath: "inset(100% 0 0 0)",
+        duration: 1,
+        opacity: 0
+      })
+      // inicio tercero
       .to(".tefiyoga-title",{
         translateY: "-100%",
         duration: 1,
@@ -49,18 +100,19 @@ export default function Proyects(){
         duration: 1,
       },"-=1")
       .to(".timeline-proyect",{
-        translateY: "50px",
-        duration: 1,
-      },"-=1")
-      .to(".proyect-1",{
-        translateY: "-200%",
+        translateY: "100px",
         duration: 1,
       },"-=1")
       .to(".proyect-2",{
+        translateY: "-200%",
+        duration: 1,
+      },"-=1")
+      // desaparecer tercero
+      .to(".proyect-3",{
         translateY: "-100%",
         duration: 1,
       },"-=1")
-      tl.to(".image-2", {
+      tl.to(".image-3", {
         clipPath: "inset(0 0 100% 0)",
         duration: 1,   
       })
@@ -79,11 +131,12 @@ export default function Proyects(){
         duration: 1,
         opacity: 0
       },"-=1")
-      tl.to(".canvas-container2", {
+      tl.to(".canvas-container3", {
         clipPath: "inset(100% 0 0 0)",
         duration: 1,
         opacity: 0
       })
+      // aparece cuarto
       .to(".magicmarket-title",{
         translateY: "-100%",
         duration: 1
@@ -97,18 +150,19 @@ export default function Proyects(){
         duration: 1
       },"-=1")
       .to(".timeline-proyect",{
-        translateY: "100px",
-        duration: 1,
-      },"-=1")
-      .to(".proyect-2",{
-        translateY: "-200%",
+        translateY: "150px",
         duration: 1,
       },"-=1")
       .to(".proyect-3",{
+        translateY: "-200%",
+        duration: 1,
+      },"-=1")
+      // se va cuarto
+      .to(".proyect-4",{
         translateY: "-100%",
         duration: 1,
       },"-=1")
-      tl.to(".image-3", {
+      tl.to(".image-4", {
         clipPath: "inset(0 0 100% 0)",
         duration: 1,
       })
@@ -127,11 +181,12 @@ export default function Proyects(){
         opacity: 0,
         duration: 1
       },"-=1")
-      tl.to(".canvas-container3", {
+      tl.to(".canvas-container4", {
         clipPath: "inset(100% 0 0 0)",
         duration: 1,
         opacity: 0
       })
+      // aparece quinto
       .to(".flexfit-title",{
         translateY: "-100%",
         duration: 1
@@ -145,14 +200,14 @@ export default function Proyects(){
         duration: 1
       },"-=1")
       .to(".timeline-proyect",{
-        translateY: "150px",
-        duration: 1,
-      },"-=1")
-      .to(".proyect-3",{
-        translateY: "-200%",
+        translateY: "200px",
         duration: 1,
       },"-=1")
       .to(".proyect-4",{
+        translateY: "-200%",
+        duration: 1,
+      },"-=1")
+      .to(".proyect-5",{
         translateY: "-100%",
         duration: 1,
       },"-=1")
@@ -175,7 +230,7 @@ export default function Proyects(){
           className="h-screen w-full bg-[#F9F9F9]  relative overflow-hidden px-[80px] hidden sm:flex"
         >
           <div className="w-[50px] h-full  flex items-center">
-            <div className="h-[200px] w-[2px] bg-neutral-200 relative">
+            <div className="h-[250px] w-[2px] bg-neutral-200 relative">
               <div className="absolute flex items-center gap-x-2 timeline-proyect">
                 <div className="w-[2px] h-[50px] bg-black"></div>
                 <p className="text-black-primary relative w-[18px] overflow-hidden">0
@@ -183,6 +238,7 @@ export default function Proyects(){
                   <span className="absolute top-[100%] right-[0] proyect-2">2</span>
                   <span className="absolute top-[100%] right-[0] proyect-3">3</span>
                   <span className="absolute top-[100%] right-[0] proyect-4">4</span>
+                  <span className="absolute top-[100%] right-[0] proyect-5">5</span>
                   </p>
               </div>
             </div>
@@ -190,51 +246,72 @@ export default function Proyects(){
           <div className="w-[calc(100%-50px)] h-full flex items-center justify-center">
             <div className="w-fit h-full flex flex-col justify-center">
               <div className="relative w-[500px] h-[300px]">
+                <a target="_BLANK" href="https://opus-ai.vercel.app/">
                 <img
-                  className="image-1 w-full h-full object-cover absolute top-0 left-0 z-30"
+                  className="image-1 w-full h-full object-cover absolute top-0 left-0 z-40"
                   src="/opus.svg"
                   alt="Opus"
                 />
-                <div className="canvas-container1 z-[25] absolute top-0 left-0 w-full h-full">
+                </a>
+                
+                <div className="canvas-container1 z-[35] absolute top-0 left-0 w-full h-full">
+                <Novatrix />
+                </div>
+                <a target="_BLANK" href="https://yacht-landing-eight.vercel.app/">
+                <img
+                  className="image-2 w-full h-full object-cover absolute top-0 left-0 z-30"
+                  src="/seaway.png"
+                  alt="Seaway"
+                />
+                </a>
+                
+                <div className="canvas-container2 z-[25] absolute top-0 left-0 w-full h-full">
                 <Novatrix />
                 </div>
                 
+                <a target="_BLANK" href="https://tefiyoga.netlify.app/">
                 <img
-                  className="image-2 w-full h-full object-cover absolute top-0 left-0 z-20"
+                  className="image-3 w-full h-full object-cover absolute top-0 left-0 z-20"
                   src="/tefiyoga.svg"
                   alt="TefiYoga"
                 />
-                <div className="canvas-container2 z-[15] absolute top-0 left-0 w-full h-full">
+                </a>
+                <div className="canvas-container3 z-[15] absolute top-0 left-0 w-full h-full">
                 <Novatrix />
                 </div>
                 
-  
+                <a target="_BLANK" href="https://magicmarket.netlify.app/">
                 <img
-                  className="image-3 w-full h-full object-cover absolute top-0 left-0 z-10"
+                  className="image-4 w-full h-full object-cover absolute top-0 left-0 z-10"
                   src="/magicmarket.svg"
                   alt="Magic Market"
                 />
-                <div className="canvas-container3 z-[5] absolute top-0 left-0 w-full h-full">
+                </a>
+                <div className="canvas-container4 z-[5] absolute top-0 left-0 w-full h-full">
                 <Novatrix />
                 </div>
                 
-  
+              <a target="_BLANK" href="https://maximilianocejas.github.io/Desarrollo-Web-Coderhouse/">
                 <img
                   className="w-full h-full object-cover absolute top-0 left-0"
                   src="/flexfit.svg"
                   alt="FlexFit"
                 />
+                </a>
               </div>
               <div className="text-black-primary text-base relative">
                 <div className="flex justify-between pt-5 relative">
                   <div className="w-[250px] relative overflow-hidden">
                     <h2 className="font-semibold opus-title">Opus AI</h2>
+                    <h2 className="font-semibold absolute left-0 top-[100%] seaway-title">Seaway</h2>
                     <h2 className="font-semibold absolute left-0 top-[100%] tefiyoga-title">TefiYoga</h2>
                     <h2 className="font-semibold absolute left-0 top-[100%] magicmarket-title">Magic Market</h2>
                     <h2 className="font-semibold absolute left-0 top-[100%] flexfit-title">Flex Fit</h2>
                   </div>
                   <div className="relative overflow-hidden">
                     <p className="opacity-70 text-sm opus-activity">Diseño, Desarrollo.</p>
+
+                    <p className="opacity-70 absolute right-0 top-[100%] text-sm seaway-activity">Diseño, Desarrollo.</p>
                     <p className="opacity-70 absolute right-0 top-[100%] text-sm tefiyoga-activity">Desarrollo.</p>
                     <p className="opacity-70 absolute right-0 top-[100%] text-sm magicmarket-activity">Diseño, Desarrollo.</p>
                     <p className="opacity-70 absolute right-0 top-[100%] text-sm flexfit-activity">Diseño, Desarrollo.</p>
@@ -244,6 +321,9 @@ export default function Proyects(){
                 <div className="relative overflow-hidden mt-2">
                   <p className="font-light text-sm opus-description">
                     Aplicación web de chat de inteligencia artificial.
+                  </p>
+                  <p className="font-light text-sm absolute left-0 top-[100%] seaway-description">
+                    Pagina de aterrizaje de yates de lujo<span className="text-blue-600">(En proceso)</span>.
                   </p>
                   <p className="font-light text-sm absolute left-0 top-[100%] tefiyoga-description">
                     Pagina de aterrizaje para cliente orientada al clases de yoga.
