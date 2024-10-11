@@ -6,9 +6,49 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #F9F9F9;
+  @apply bg-primary
 }
 
 body.no-scroll{
   overflow: hidden;
+}
+
+
+@font-face {
+  font-family: 'Studio6';
+  src: url('../public/font/studio6/Studio6-Black.ttf');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Studio6';
+  src: url('../public/font/studio6/Studio6-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Studio6';
+  src: url('../public/font/studio6/Studio6-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Studio6';
+  src: url('../public/font/studio6/Studio6-DemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Studio6';
+  src: url('../public/font/studio6/Studio6-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Studio6';
+  src: url('../public/font/studio6/Studio6-Regular.ttf');
+  font-weight: 400;
+}
+
+
+.about{
+  background-image: url('../public/prueba.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

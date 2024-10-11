@@ -2,8 +2,8 @@
 
 export default function NavDesktop(){
     return(
-        <nav className="w-full h-fit px-20 pt-2 text-black items-center justify-between hidden sm:flex">
-            <div className="bg-black text-white rounded-full flex items-center justify-center px-6 py-4">
+        <nav className="w-full h-fit px-20 pt-2 text-secondary bg-primary font-standard items-center justify-between hidden sm:flex">
+            <div className="bg-secondary text-primary rounded-full flex items-center justify-center px-6 py-4">
                 <p className="uppercase text-base font-semibold">Disponible para trabajar</p>
             </div>
             <div className="flex gap-x-24">   

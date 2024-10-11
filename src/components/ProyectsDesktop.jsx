@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
-import { Novatrix } from "uvcanvas"
+import { Velustro } from "uvcanvas"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -227,13 +227,13 @@ export default function Proyects(){
         <>
         <div
           ref={containerRef}
-          className="h-screen w-full bg-[#F9F9F9]  relative overflow-hidden px-[80px] hidden sm:flex"
+          className="h-screen w-full bg-primary  relative overflow-hidden px-[80px] hidden sm:flex"
         >
           <div className="w-[50px] h-full  flex items-center">
             <div className="h-[250px] w-[2px] bg-neutral-200 relative">
               <div className="absolute flex items-center gap-x-2 timeline-proyect">
-                <div className="w-[2px] h-[50px] bg-black"></div>
-                <p className="text-black-primary relative w-[18px] overflow-hidden">0
+                <div className="w-[2px] h-[50px] bg-secondary"></div>
+                <p className="text-secondary font-standard font-normal relative w-[18px] overflow-hidden">0
                   <span className="proyect-1 absolute right-[0] top-0">1</span>
                   <span className="absolute top-[100%] right-[0] proyect-2">2</span>
                   <span className="absolute top-[100%] right-[0] proyect-3">3</span>
@@ -255,7 +255,7 @@ export default function Proyects(){
                 </a>
                 
                 <div className="canvas-container1 z-[35] absolute top-0 left-0 w-full h-full">
-                <Novatrix />
+                <Velustro />
                 </div>
                 <a target="_BLANK" href="https://yacht-landing-eight.vercel.app/">
                 <img
@@ -266,7 +266,7 @@ export default function Proyects(){
                 </a>
                 
                 <div className="canvas-container2 z-[25] absolute top-0 left-0 w-full h-full">
-                <Novatrix />
+                <Velustro />
                 </div>
                 
                 <a target="_BLANK" href="https://tefiyoga.netlify.app/">
@@ -277,7 +277,7 @@ export default function Proyects(){
                 />
                 </a>
                 <div className="canvas-container3 z-[15] absolute top-0 left-0 w-full h-full">
-                <Novatrix />
+                <Velustro />
                 </div>
                 
                 <a target="_BLANK" href="https://magicmarket.netlify.app/">
@@ -288,7 +288,7 @@ export default function Proyects(){
                 />
                 </a>
                 <div className="canvas-container4 z-[5] absolute top-0 left-0 w-full h-full">
-                <Novatrix />
+                <Velustro />
                 </div>
                 
               <a target="_BLANK" href="https://maximilianocejas.github.io/Desarrollo-Web-Coderhouse/">
@@ -299,14 +299,14 @@ export default function Proyects(){
                 />
                 </a>
               </div>
-              <div className="text-black-primary text-base relative">
+              <div className="text-secondary text-base relative">
                 <div className="flex justify-between pt-5 relative">
                   <div className="w-[250px] relative overflow-hidden">
-                    <h2 className="font-semibold opus-title">Opus AI</h2>
-                    <h2 className="font-semibold absolute left-0 top-[100%] seaway-title">Seaway</h2>
-                    <h2 className="font-semibold absolute left-0 top-[100%] tefiyoga-title">TefiYoga</h2>
-                    <h2 className="font-semibold absolute left-0 top-[100%] magicmarket-title">Magic Market</h2>
-                    <h2 className="font-semibold absolute left-0 top-[100%] flexfit-title">Flex Fit</h2>
+                    <h2 className="font-semibold font-standard opus-title">Opus AI</h2>
+                    <h2 className="font-semibold font-standard absolute left-0 top-[100%] seaway-title">Seaway</h2>
+                    <h2 className="font-semibold font-standard absolute left-0 top-[100%] tefiyoga-title">TefiYoga</h2>
+                    <h2 className="font-semibold font-standard absolute left-0 top-[100%] magicmarket-title">Magic Market</h2>
+                    <h2 className="font-semibold font-standard absolute left-0 top-[100%] flexfit-title">Flex Fit</h2>
                   </div>
                   <div className="relative overflow-hidden">
                     <p className="opacity-70 text-sm opus-activity">Diseño, Desarrollo.</p>
