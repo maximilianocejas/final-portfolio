@@ -1,18 +1,34 @@
+
 export default function About(){
     return(
-        <section className="h-fit w-full rounded-t-xl bg-[#080618] text-[#ECF5FF] font-standard px-20 py-20 about">
-            <div>
-                <h2 className="font-normal text-8xl">Sobre mi</h2>
-                <p className="text-[#ECF5FF] opacity-80 font-normal">
-                    Soy un desarrollador frontend con conocimientos<br/> en diseño UX/UI de Argentina.
+        <section className="h-fit w-full bg-primary text-secondary font-standard px-20 py-20">
+           
+            
+                
+           
+            <article className="grid grid-cols-12 mt-12 w-full gap-x-20">
+            <div className="w-full col-span-7">
+                    <p className="text-secondary font-semibold text-7xl uppercase">Sobre mi</p>
+                    <p className="text-secondary text-2xl font-semibold">
+                    Soy un desarrollador frontend con conocimientos en diseño UX/UI de Argentina.
                 </p>
-            </div>
-            <article className="flex gap-x-4 items-center justify-end mt-12">
-                <img src="./profile-mobile.png" alt="Profile image" />
-                <p className="text-base text-[#ECF5FF] opacity-80 font-normal">
-                Me mantengo en constante formación y dedicación para<br/> mantenerme actualizado con las ultimas tendencias<br/> tecnológicas, creando sitios web responsivos y<br/> amigables a la vista.<br/>
-                Soy una persona entusiasta y amante de los desafíos.<br/> Me encanta aprender siempre algo nuevo, de igual<br/> manera, me aseguro siempre de dar los mejores<br/> resultados posibles. 
+                    <div className="pt-5">
+
+
+                    <p className="text-secondary font-normal text-lg">
+                
+                Soy una persona entusiasta y amante de los desafíos. Me encanta aprender siempre algo nuevo, de igual manera, me aseguro siempre de dar los mejores resultados posibles. 
                 </p>
+
+                    </div>
+
+                </div>
+                <div className="w-full h-full col-span-5 py-5">
+                <img className="aspect-auto w-full" src="./profile-mobile.png" alt="Profile image" />
+                </div>
+                
+
+               
             </article>
 
         </section>

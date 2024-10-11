@@ -9,7 +9,9 @@ export default {
       colors: {
         "black": "#222222",
         "primary": "#F3F3F1",
-        "secondary": "#13100C"
+        "secondary": "#13100C",
+        "button-dark": "#17153B",
+        "button-arrow": "hsla(41,29%,89%,.4)"
     }
     },
     fontFamily:{
