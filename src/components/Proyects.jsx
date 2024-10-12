@@ -21,7 +21,7 @@ export default function Proyects(){
         })
     },[])
     return(
-        <section className=" relative z-10 left-0 min-h-screen proyects rounded-t-[1.5rem] top-full h-fit w-full bg-primary text-secondary font-standard px-20 py-20">
+        <section className=" relative z-10 left-0 min-h-screen hidden sm:block proyects rounded-t-[1.5rem] top-full h-fit w-full bg-primary text-secondary font-standard px-20 py-20">
                 <h2 className="text-9xl font-semibold ">PROYECTOS</h2>
                     <div className="h-fit w-full bg-red-500 grid grid-cols-2 grid-rows-1">
                    
