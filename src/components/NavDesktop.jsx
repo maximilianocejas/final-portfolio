@@ -2,7 +2,7 @@
 
 export default function NavDesktop(){
     return(
-        <nav className="w-full h-fit px-20 pt-2 text-primary font-standard items-center justify-between hidden sm:flex">
+        <nav className="w-full h-fit px-20 pt-2 text-primary font-standard items-center absolute top-0 left-0 justify-between hidden sm:flex">
             <div className="bg-button-dark text-primary rounded-full flex items-center justify-center px-6 py-4">
                 <p className="uppercase text-base font-semibold">Disponible para trabajar</p>
             </div>

@@ -1,5 +1,5 @@
 
-import Header from "./components/Header";
+import {Header }from "./components/Header";
 import Proyects from "./components/Proyects";
 import ProyectsDesktop from "./components/ProyectsDesktop";
 import ProyectsMobile from "./components/ProyectsMobile";
