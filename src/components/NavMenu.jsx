@@ -1,7 +1,8 @@
 import gsap from "gsap"
 import { useEffect } from "react"
 
-export default function NavMenu({showNav}){
+
+export default function NavMenu({handleShowNav,showNav}){
     useEffect(()=>{
         let targets = gsap.utils.toArray('.text-animate')
         gsap.set(targets,{translateY: '2rem'})
@@ -19,10 +20,10 @@ export default function NavMenu({showNav}){
             
             <div className="h-full w-full px-4 flex items-start pt-[120px]">
                 <ul className="text-white capitalize text-4xl font-normal flex flex-col w-full relative z-10">
-                    <li className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="">Inicio</a></li>
-                    <li className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="">Proyectos</a></li>
-                    <li className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="">Sobre mi</a></li>
-                    <li className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="">Contacto</a></li>
+                    <li onClick={handleShowNav} className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="#inicio">Inicio</a></li>
+                    <li onClick={handleShowNav} className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="#proyectos">Proyectos</a></li>
+                    <li onClick={handleShowNav} className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="#sobre-mi">Sobre mi</a></li>
+                    <li onClick={handleShowNav} className="overflow-hidden py-6 relative"><a className="absolute text-animate" href="">Contacto</a></li>
                 </ul>
             </div>
         </div>

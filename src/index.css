@@ -6,6 +6,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   @apply bg-button-dark
 }
 
@@ -57,43 +58,83 @@ body.no-scroll{
   overflow: hidden;
 
 }
-.slider .slider-track{
-  display: flex;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s ease-in-out infinite;
-  width: calc(280px * 14);
-}
-
-.slide{
-  height: 280px;
-  width: 280px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 1px solid rgba(255,255,255,.2);
-  border-bottom: 1px solid rgba(255,255,255,.2);
-  border-right: 1px solid rgba(255,255,255,.2);
-}
-
-
-
-.slider .slide img{
-  width: 100px;
-  height: 100px;
-  opacity: 0.6;
-}
-.slide:hover img{
-
-  opacity: 1;
-
-}
-@keyframes scroll{
-  0%{
-    -webkit-transform: translateX(0);
-    transform: translateX(0)
+@media (min-width:768px) {
+  .slider .slider-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s ease-in-out infinite;
+    width: calc(280px * 14);
   }
-  100%{
-    -webkit-transform: translateX(calc(-280px * 7));
-    transform: translateX(calc(-280px * 7))
+  
+  .slide{
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    border-right: 1px solid rgba(255,255,255,.2);
+  }
+  
+  .slider .slide img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.6;
+  }
+  .slide:hover img{
+  
+    opacity: 1;
+  
+  }
+  @keyframes scroll{
+    0%{
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+    }
+    100%{
+      -webkit-transform: translateX(calc(-280px * 7));
+      transform: translateX(calc(-280px * 7))
+    }
+  }
+}
+@media (max-width:768px) {
+  .slider .slider-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s ease-in-out infinite;
+    width: calc(150px * 14);
+  }
+  
+  .slide{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    border-right: 1px solid rgba(255,255,255,.2);
+  }
+  
+  .slider .slide img{
+    width: 70px;
+    height: 70px;
+    opacity: 0.6;
+  }
+  .slide:hover img{
+  
+    opacity: 1;
+  
+  }
+  @keyframes scroll{
+    0%{
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+    }
+    100%{
+      -webkit-transform: translateX(calc(-150px * 7));
+      transform: translateX(calc(-150px * 7))
+    }
   }
 }

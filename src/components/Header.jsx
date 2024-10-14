@@ -30,12 +30,12 @@ export function Header(){
         <header className="h-screen w-full relative overflow-hidden header z-[1]"> 
                 
             <NavDesktop/>
-            <section className="h-full pt-24  w-full text-primary font-standard px-20 py-24  hidden sm:block overflow-hidden">
+            <section className="h-full pt-24  w-full text-white font-standard px-20 py-24  hidden sm:block overflow-hidden">
             <div className="w-full h-full relative top-0 hero">
             <div>
 <div className="flex gap-x-2 items-center font-medium text-base font-standard">
     <p>Hola, soy</p>
-    <hr className="w-[60px] border-primary"/>
+    <hr className="w-[60px] border-white"/>
     <img className="size-[60px] object-contain" src="/profile.svg" alt="Profile image" />
     <p>[Desarrollador Web y Desarrollador Frontend UI]</p>
 </div>
@@ -43,25 +43,25 @@ export function Header(){
     <h1 className="font-semibold font-standard text-9xl">Maximiliano</h1>
     <p className="text-base font-normal font-standard mt-2">Creo experiencias únicas y atractivas en la web, enfocándome en<br/> combinar diseño y funcionalidad para lograr interfaces excepcionales.</p>
 </div>
-<div className="mt-4">
-    <button className="rounded-lg  px-4 items-center py-3 flex justify-between gap-x-4 bg-button-dark font-standard text-white font-normal text-lg">Contacto
+<div className="mt-4 flex">
+    <a href="https://www.linkedin.com/in/maximiliano-cejas/" target="_BLANK" className="rounded-lg  px-4 items-center py-3 flex justify-between gap-x-4 bg-button-dark font-standard text-white font-normal text-lg">Contacto
         <div className="bg-button-arrow size-8 rounded flex items-center justify-center">
             <img className="size-6" src="./icons/arrow-normal.svg" alt="" />
         </div>
-    </button>
+    </a>
 </div>
 </div>
 <div className="absolute w-24 h-fit bottom-0 right-0">
 <ul className="flex flex-col gap-y-2">
     <li>
-        <a target="_BLANK" className="flex flex-row-reverse gap-x-2 items-center font-semibold text-lg" href="https://www.behance.net/maxicejas2">
+        <a target="_BLANK" className="flex flex-row-reverse gap-x-2 items-center font-medium text-lg opacity-30 hover:opacity-100 transition-all duration-300" href="https://www.behance.net/maxicejas2">
                                             <img className="size-[32px]" src="./incline-arrow.svg" alt="Arrow icon" />
                                         Behance
             </a>
 
     </li>
     <li>
-    <a target="_BLANK" className="flex flex-row-reverse gap-x-2 items-center font-semibold text-lg" href="https://github.com/maximilianocejas">
+    <a target="_BLANK" className="flex flex-row-reverse gap-x-2 items-center font-medium text-lg opacity-30 hover:opacity-100 transition-all duration-300" href="https://github.com/maximilianocejas">
                                         <img className="size-[32px]" src="./incline-arrow.svg" alt="Arrow icon" />
             Github
 
@@ -69,7 +69,7 @@ export function Header(){
     </li>
     <li>
         
-    <a target="_BLANK" className="flex flex-row-reverse gap-x-2 items-center font-semibold text-lg" href="https://www.linkedin.com/in/maximiliano-cejas/">
+    <a target="_BLANK" className="flex flex-row-reverse gap-x-2 items-center font-medium text-lg opacity-30 hover:opacity-100 transition-all duration-300" href="https://www.linkedin.com/in/maximiliano-cejas/">
                                         <img className="size-[32px]" src="./incline-arrow.svg" alt="Arrow icon" />
             Linkedin
 

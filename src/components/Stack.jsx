@@ -1,7 +1,7 @@
 export default function Stack(){
     return(
-        <section className="bg-button-dark slider py-2">
-            <h2 className="py-16 px-20 font-standard font-normal text-6xl text-primary">Mis tecnolgías</h2>
+        <section id="sobre-mi" className="bg-button-dark slider py-2">
+            <h2 className="px-4 py-8 text-2xl font-standard font-normal md:text-6xl md:py-16 md:px-20  text-primary">Mis tecnolgías</h2>
             <div className="slider-track">
                 <div className="slide">
                     <img src="./stack/next.svg" alt="" />
