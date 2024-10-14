@@ -3,6 +3,21 @@ import NavMenu from "./NavMenu"
 
 export default function NavMobile(){
     const [showNav,setShowNav] = useState(false)
+    const [time, setTime] = useState(new Date());
+    useEffect(()=>{
+        const timer = setInterval(()=>{
+            setTime(new Date())
+        },30000)
+        return ()=> clearInterval(timer)
+    },[])
+    const getDataTimeBS = (date)=>{
+        return new Intl.DateTimeFormat('es-AR',{
+            timeZone: 'America/Argentina/Buenos_Aires',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false
+        }).format(date)
+    }
     const handleShowNav = ()=>{
         setShowNav(!showNav)
     }
@@ -14,13 +29,15 @@ export default function NavMobile(){
             document.body.classList.remove('no-scroll')
         }
     },[showNav])
+
+    const buenosAiresTime = getDataTimeBS(time)
     return(
         <nav className="px-4 flex justify-between items-center h-[60px] sm:hidden pt-4 fixed top-0 z-40">
             <div>
                 <ul className="flex gap-x-2">
                     <li className="flex flex-col text-primary">
                         <p className="font-bold text-xs">Horario</p>
-                        <p className="text-xs">10:32pm (GMT-3)</p>
+                        <p className="text-xs">{buenosAiresTime}(GMT-3)</p>
                     </li>
                     <li className="flex flex-col text-primary">
                         <p className="font-bold text-xs">Ubicación</p>

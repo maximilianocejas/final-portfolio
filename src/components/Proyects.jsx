@@ -88,8 +88,10 @@ export default function Proyects(){
                     
                     <div className="flex flex-col gap-y-32 col-span-1">
                         <article  className="h-screen w-full proyect">
-                            
+                            <a target="_BLANK" href="https://opus-ai.vercel.app/">
                             <img className="w-full h-[500px] object-cover" src="./opus.svg" alt="" />
+                            </a>
+                            
                             
                             <div className="flex w-full justify-between mt-4">
                                 <h3 className="text-sm font-normal">Opus Ai</h3>
@@ -103,7 +105,10 @@ export default function Proyects(){
                             </p>
                         </article>
                         <article className="h-screen w-full proyect2">
-                        <img className="w-full h-[500px] object-cover" src="./seaway.png" alt="" />
+                            <a target="_BLANK" href="https://yacht-landing-eight.vercel.app/">
+                            <img className="w-full h-[500px] object-cover" src="./seaway.png" alt="" />
+                            </a>
+                        
                             
                         <div className="flex w-full justify-between mt-4">
                                 <h3 className="text-sm font-normal">Seaway</h3>
@@ -117,7 +122,10 @@ export default function Proyects(){
                             </p>
                         </article>
                         <article className="h-screen w-full proyect3">
-                        <img className="w-full h-[500px] object-cover" src="./tefiyoga.png" alt="" />
+                            <a target="_BLANK" href="https://tefiyoga.netlify.app/">
+                            <img className="w-full h-[500px] object-cover" src="./tefiyoga.png" alt="" />
+                            </a>
+                        
                             
                         <div className="flex w-full justify-between mt-4">
                                 <h3 className="text-sm font-normal">Tefiyoga</h3>
@@ -131,7 +139,10 @@ export default function Proyects(){
                             </p>
                         </article>
                         <article className="h-screen w-full proyect4">
-                        <img className="w-full h-[500px] object-cover" src="./magicmarket.svg" alt="" />
+                            <a target="_BLANK" href="https://magicmarket.netlify.app/">
+                            <img className="w-full h-[500px] object-cover" src="./magicmarket.svg" alt="" />
+                            
+                            </a>
                             
                         <div className="flex w-full justify-between mt-4">
                                 <h3 className="text-sm font-normal">Magic Market</h3>
@@ -145,7 +156,10 @@ export default function Proyects(){
                             </p>
                         </article>
                         <article className="h-screen w-full proyect5">
-                        <img className="w-full h-[500px] object-cover" src="./flexfit.svg" alt="" />
+                            <a target="_BLANK" href="https://maximilianocejas.github.io/Desarrollo-Web-Coderhouse/">
+                            <img className="w-full h-[500px] object-cover" src="./flexfit.svg" alt="" />
+                            
+                            </a>
                             
                         <div className="flex w-full justify-between mt-4">
                                 <h3 className="text-sm font-normal">Flex Fit</h3>
