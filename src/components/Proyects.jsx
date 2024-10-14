@@ -118,7 +118,7 @@ export default function Proyects(){
                                 </div>
                             </div>
                             <p className="mt- text-4xl font-bold">
-                            Yates de lujo
+                            Yates de lujo(En proceso)
                             </p>
                         </article>
                         <article className="h-screen w-full proyect3">
