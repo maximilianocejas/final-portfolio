@@ -100,7 +100,7 @@ export default function Proyects(){
                                 <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
                                 </div>
                             </div>
-                            <p className="mt- text-4xl font-bold">
+                            <p className="text-3xl font-semibold">
                             Chat de IA
                             </p>
                         </article>
@@ -117,8 +117,8 @@ export default function Proyects(){
                                 <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
                                 </div>
                             </div>
-                            <p className="mt- text-4xl font-bold">
-                            Yates de lujo(En proceso)
+                            <p className="text-3xl font-semibold">
+                            Yates de lujo
                             </p>
                         </article>
                         <article className="h-screen w-full proyect3">
@@ -134,7 +134,7 @@ export default function Proyects(){
                                 <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
                                 </div>
                             </div>
-                            <p className="mt- text-4xl font-bold">
+                            <p className="text-3xl font-semibold">
                             Clases de yoga
                             </p>
                         </article>
@@ -151,7 +151,7 @@ export default function Proyects(){
                                 <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
                                 </div>
                             </div>
-                            <p className="mt- text-4xl font-bold">
+                            <p className="text-3xl font-semibold">
                             Eccommerce
                             </p>
                         </article>
@@ -168,7 +168,7 @@ export default function Proyects(){
                                 <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
                                 </div>
                             </div>
-                            <p className="mt- text-4xl font-bold">
+                            <p className="text-3xl font-semibold">
                             Entrenamiento
                             </p>
                         </article>
