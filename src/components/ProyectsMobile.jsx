@@ -4,7 +4,7 @@ export default function ProyectsMobile(){
     return(
         <section id="proyectos" className="h-fit flex flex-col gap-y-8 w-full px-4 sm:hidden bg-[#FFFFFF] text-black font-standard py-14 rounded-t-3xl">
             <article className="flex flex-col gap-y-2">
-                <a target="_BLANK" href="https://yacht-landing-eight.vercel.app/">
+                <a target="_BLANK" href="https://seaway-yacht.vercel.app/">
                 <img src="./seaway.png" alt="Seaway" />
                 </a>
                 <div className="flex justify-between items-center">

@@ -88,7 +88,7 @@ export default function Proyects(){
                     
                     <div className="flex flex-col gap-y-32 col-span-1">
                     <article className="h-screen w-full proyect">
-                            <a target="_BLANK" href="https://yacht-landing-eight.vercel.app/">
+                            <a target="_BLANK" href="https://seaway-yacht.vercel.app/">
                             <img className="w-full h-[500px] object-cover" src="./seaway.png" alt="" />
                             </a>
                         
