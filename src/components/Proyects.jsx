@@ -87,24 +87,7 @@ export default function Proyects(){
                     </div>
                     
                     <div className="flex flex-col gap-y-32 col-span-1">
-                        <article  className="h-screen w-full proyect">
-                            <a target="_BLANK" href="https://opus-ai.vercel.app/">
-                            <img className="w-full h-[500px] object-cover" src="./opus.svg" alt="" />
-                            </a>
-                            
-                            
-                            <div className="flex w-full justify-between mt-4">
-                                <h3 className="text-sm font-normal">Opus Ai</h3>
-                                <div className="">
-                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F4FE] text-[#006dcbf2] mr-2">Diseño</span>
-                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
-                                </div>
-                            </div>
-                            <p className="text-3xl font-semibold">
-                            Chat de IA
-                            </p>
-                        </article>
-                        <article className="h-screen w-full proyect2">
+                    <article className="h-screen w-full proyect">
                             <a target="_BLANK" href="https://yacht-landing-eight.vercel.app/">
                             <img className="w-full h-[500px] object-cover" src="./seaway.png" alt="" />
                             </a>
@@ -121,6 +104,24 @@ export default function Proyects(){
                             Yates de lujo
                             </p>
                         </article>
+                        <article  className="h-screen w-full proyect2">
+                            <a target="_BLANK" href="https://opus-ai.vercel.app/">
+                            <img className="w-full h-[500px] object-cover" src="./opus.svg" alt="" />
+                            </a>
+                            
+                            
+                            <div className="flex w-full justify-between mt-4">
+                                <h3 className="text-sm font-normal">Opus Ai</h3>
+                                <div className="">
+                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F4FE] text-[#006dcbf2] mr-2">Diseño</span>
+                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
+                                </div>
+                            </div>
+                            <p className="text-3xl font-semibold">
+                            Chat de IA
+                            </p>
+                        </article>
+                        
                         <article className="h-screen w-full proyect3">
                             <a target="_BLANK" href="https://tefiyoga.netlify.app/">
                             <img className="w-full h-[500px] object-cover" src="./tefiyoga.png" alt="" />

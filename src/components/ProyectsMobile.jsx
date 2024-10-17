@@ -4,19 +4,6 @@ export default function ProyectsMobile(){
     return(
         <section id="proyectos" className="h-fit flex flex-col gap-y-8 w-full px-4 sm:hidden bg-[#FFFFFF] text-black font-standard py-14 rounded-t-3xl">
             <article className="flex flex-col gap-y-2">
-                <a target="_BLANK" href="https://opus-ai.vercel.app/">
-                <img src="./opus.svg" alt="" />
-                </a>
-                <div className="flex justify-between items-center">
-                    <h2 className="font-bold text-xl">Opus AI</h2>
-                    <div className=" text-xs">
-                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F4FE] text-[#006dcbf2] mr-2">Diseño</span>
-                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
-                                </div>
-                </div>
-                <p className="text-xs ">Chat de IA</p>
-            </article>
-            <article className="flex flex-col gap-y-2">
                 <a target="_BLANK" href="https://yacht-landing-eight.vercel.app/">
                 <img src="./seaway.png" alt="Seaway" />
                 </a>
@@ -28,6 +15,19 @@ export default function ProyectsMobile(){
                                 </div>
                 </div>
                 <p className="text-xs ">Yates de lujo</p>
+            </article>
+            <article className="flex flex-col gap-y-2">
+                <a target="_BLANK" href="https://opus-ai.vercel.app/">
+                <img src="./opus.svg" alt="" />
+                </a>
+                <div className="flex justify-between items-center">
+                    <h2 className="font-bold text-xl">Opus AI</h2>
+                    <div className=" text-xs">
+                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F4FE] text-[#006dcbf2] mr-2">Diseño</span>
+                                <span className="rounded-[4px] py-2 px-4 bg-[#E6F6EB] text-[#00713fde]">Desarrollo</span>
+                                </div>
+                </div>
+                <p className="text-xs ">Chat de IA</p>
             </article>
             <article className="flex flex-col gap-y-2">
             <a target="_BLANK" href="https://tefiyoga.netlify.app/">
